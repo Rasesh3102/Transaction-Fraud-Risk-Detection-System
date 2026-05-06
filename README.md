@@ -89,7 +89,6 @@ Fraud Risk Scoring
    ↓
 Business Impact Analysis
    ↓
-Exported Reports and GitHub Documentation
 ```
 
 ---
@@ -270,30 +269,7 @@ Optional library installation:
 
 ---
 
-## Folder Structure
 
-```text
-transaction-fraud-risk-detection-python/
-│
-├── README.md
-├── requirements.txt
-├── notebook/
-│   └── transaction_fraud_risk_detection.ipynb
-├── data/
-│   └── creditcard.csv
-├── outputs/
-│   ├── fraud_model_performance_comparison.csv
-│   ├── threshold_tuning_results.csv
-│   ├── fraud_risk_scored_transactions.csv
-│   ├── business_impact_summary.csv
-│   └── final_project_summary.txt
-├── images/
-│   └── charts/
-└── src/
-    └── fraud_detection_utils.py
-```
-
----
 
 ## Future Enhancements
 
@@ -325,6 +301,3 @@ Data Analyst | Fraud & Risk Analytics | Python | SQL | Scikit-learn | Tableau | 
 
 ---
 
-## Disclaimer
-
-This project is built for portfolio and learning purposes. The dataset is anonymized and publicly available through Kaggle. The financial impact calculations are based on adjustable assumptions and are intended to demonstrate business analysis methodology.
