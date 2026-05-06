@@ -88,7 +88,7 @@ Threshold Tuning
 Fraud Risk Scoring
    ↓
 Business Impact Analysis
-   ↓
+   
 ```
 
 ---
