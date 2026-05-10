@@ -219,20 +219,6 @@ These assumptions are used for portfolio demonstration and can be adjusted based
 
 ---
 
-## Outputs Generated
-
-The project exports the following files into the `outputs/` folder:
-
-| Output File | Description |
-|---|---|
-| `fraud_model_performance_comparison.csv` | Model comparison across fraud-focused metrics |
-| `threshold_tuning_results.csv` | Precision, recall, F1, false positives, and false negatives by threshold |
-| `fraud_risk_scored_transactions.csv` | Final transaction-level fraud scores and risk categories |
-| `business_impact_summary.csv` | Estimated financial impact summary |
-| `final_project_summary.txt` | Plain-English project summary |
-
----
-
 ## Visualizations
 
 The notebook creates professional charts, including:
@@ -261,43 +247,22 @@ The notebook creates professional charts, including:
 5. Run all notebook cells from top to bottom
 6. Review charts, model metrics, fraud risk scores, and exported output files
 
-Optional library installation:
-
-```bash
-!pip install imbalanced-learn xgboost
-```
-
----
-
-
-
 ## Future Enhancements
 
 - Build a real-time fraud scoring API using FastAPI or Flask
 - Add streaming transaction monitoring with Apache Kafka or AWS Kinesis
-- Use Autoencoders for anomaly detection
+- Use Autoencodes for anomaly detection
 - Add model monitoring for data drift and performance decay
 - Add SHAP-based explainability for individual transactions
 - Deploy the model using AWS SageMaker
 - Build a Tableau or Power BI dashboard for fraud operations monitoring
 - Add champion/challenger testing for fraud model comparison
 
----
 
-## Resume Project Summary
-
-**Transaction Fraud Risk Detection System | Python, Pandas, Scikit-learn, Machine Learning**
-
-- Built a transaction fraud detection system using Python, Pandas, Scikit-learn, and machine learning to identify suspicious transactions and assign fraud risk scores.
-- Compared Logistic Regression, Random Forest, Gradient Boosting, and optional XGBoost models using Recall, Precision, F1-Score, ROC-AUC, and PR-AUC to improve fraud detection analysis.
-- Developed threshold tuning and business impact simulation to estimate fraud loss prevention, manual review cost, and net savings for risk-based fraud monitoring decisions.
-
----
 
 ## Author
 
 **Rasesh Ravula**  
 Data Analyst | Fraud & Risk Analytics | Python | SQL | Scikit-learn | Tableau | Power BI
 
----
 
